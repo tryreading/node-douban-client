@@ -12,6 +12,11 @@
     "request": "^2.34.0",
     "underscore": "^1.6.0"
   },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "should": "^3.3.1",
+    "supertest": "^0.11.0"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/tryreading/node-douban-client.git"
