@@ -1,14 +1,20 @@
 {
   "name": "node-douban-client",
   "version": "0.0.1",
-  "private": true,
+  "description": "nodejs douban apiv2 client based on request",
   "main": "index.js",
   "scripts": {
+    "test": "node test"
   },
+  "author": "Lei Pan (https://github.com/superpan)",
+  "license": "MIT",
   "dependencies": {
     "request": "^2.34.0",
     "underscore": "^1.6.0"
   },
-  "devDependencies": {
-  }
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tryreading/node-douban-client.git"
+  },
+  "homepage": "https://github.com/tryreading/node-douban-client"
 }
