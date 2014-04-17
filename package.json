@@ -1,0 +1,14 @@
+{
+  "name": "node-douban-client",
+  "version": "0.0.1",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+  },
+  "dependencies": {
+    "request": "^2.34.0",
+    "underscore": "^1.6.0"
+  },
+  "devDependencies": {
+  }
+}
