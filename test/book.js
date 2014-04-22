@@ -20,4 +20,15 @@ module.exports.run = function () {
       t.equal(res.isbn10, isbn);
     });
   });
+
+  test('should return book by search', function (t) {
+    t.plan(1);
+    var opts = {
+      q: 'python',
+      fields: 'id,title'
+    };
+    douban.book.search(opts, function (err, res) {
+      t.ok(res.count > 0, 'At least one result found');
+    });
+  });
 };
