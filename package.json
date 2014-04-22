@@ -1,6 +1,6 @@
 {
   "name": "node-douban-client",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "nodejs douban apiv2 client based on request",
   "main": "index.js",
   "scripts": {
